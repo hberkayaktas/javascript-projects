@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Slider</title>
+      <link rel="stylesheet" href="src/slider.css" type="text/css" />
+    
+</head>
+<body>
+      
+      
+      <div id="container">
+            <div id="landing">
+                  <img name="landing1" src="https://picsum.photos/400/300?random=1">
+            </div>
+            <div id="mini_landing">
+                  <ul>
+                        <li><img src="https://picsum.photos/400/300?random=1"></li>
+                        <li><img src="https://picsum.photos/400/300?random=2"></li>
+                        <li><img src="https://picsum.photos/400/300?random=3"></li>
+                        <li><img src="https://picsum.photos/400/300?random=4"></li>
+                  </ul>
+            </div>
+            <div id="timer">
+                  <progress value="0" max="100"></progress>
+            </div>
+      </div>
+      <script src="src/slider.js"></script>
+      <script>
+            setInterval(degistir,3000);
+      </script>
+     
+</body>
+</html>
