@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="src/main.css" type="text/css" />
+    <script src="src/myScript.js"></script>
+    <script>
+
+    </script>
+</head>
+<body>
+
+    buton deneme
+ <div id="button"><p>5</p></div>
+ <br>
+ <span id="deneme"></span>
+ <br>
+
+ <table  id="tableUI">
+     <tr>
+         <td colspan="4">
+             <div id="baslik">Hesap makinesi</div>
+             <span id="islemdeger">|</span>
+             <div id="managebox">
+                <div id="gecmis">Geçmiş:</div><span id="gecmisdeger">|</span><br>
+                <form name="form_al"><input type="text" name="kuldeger" value="0"></form>
+             </div>
+         </td>
+    </tr>
+    <tr>
+        <td><div id="managebutton" onclick="piyazdir();"><p>π</p></div></td>
+        <td><div id="managebutton" onclick="karealma();"><p>x<sup>2</sup></p></div></td>
+        <td><div id="managebutton" onclick="karekok();"><p><sup>2</sup>√</p></div></td>
+        <td><div id="managebutton" onclick="bolme();"><p>÷</p></div></td>
+   </tr>
+   <tr>
+        <td><div id="button" onclick="yazdir(7);"><p>7</p></div></td>
+        <td><div id="button" onclick="yazdir(8);"><p>8</p></div></td>
+        <td><div id="button" onclick="yazdir(9);"><p>9</p></div></td>
+        <td><div id="managebutton" onclick="carpma();"><p>*</p></div></td>
+    </tr>
+    <tr>
+        <td><div id="button" onclick="yazdir(4);"><p>4</p></div></td>
+        <td><div id="button" onclick="yazdir(5);"><p>5</p></div></td>
+        <td><div id="button" onclick="yazdir(6);"><p>6</p></div></td>
+        <td><div id="managebutton" onclick="cikarma();"><p>-</p></div></td>
+   </tr>
+   <tr>
+        <td><div id="button" onclick="yazdir(1);"><p>1</p></div></td>
+        <td><div id="button" onclick="yazdir(2);"><p>2</p></div></td>
+        <td><div id="button" onclick="yazdir(3);"><p>3</p></div></td>
+        <td><div id="managebutton" onclick="topla();"><p>+</p></div></td>
+    </tr>
+    <tr>
+        <td><div id="managebutton" onclick="clears();"><p><small>C</small></p></div></td>
+        <td><div id="button" onclick="yazdir(0);"><p>0</p></div></td>
+        <td><div id="managebutton" onclick="esayisi();"><p>e</p></div></td>
+        <td><div id="managebutton" onclick="esittir()"><p>=</p></div></td>
+   </tr>
+ </table>
+
+</body>
+</html>
