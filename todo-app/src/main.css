@@ -1,0 +1,81 @@
+*{
+      margin:0px;
+      box-sizing: border-box;
+      padding: 0px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 400;
+}
+#container{
+      border: solid 1px;
+      padding: 10px;
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      margin-top: 15px;
+      background-color: brown;
+
+}
+form{
+      display: inline-flex;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+}
+input[type="text"]{
+      padding: 5px;
+      width: 80%;
+      font-weight: bold;
+}
+input[type="checkbox"]{
+      width: 25px;
+      height: 25px;
+}
+button,input[type="button"]{
+      color: white;
+      background: linear-gradient(1deg,#ff0000,#680000,#fff);
+      border: #fff solid 2px;
+      border-radius: 3px;
+      padding: 5px;
+      font-weight: bold;
+
+}
+button:hover,input[type="button"]:hover{
+      background-color: darkred;
+      border: solid 2px #9e9e9e;
+      color: #9e9e9e;
+}
+button:active,input[type="button"]:active{
+      background: rgb(82, 3, 3);
+      border: solid 2px #9e9e9e;
+      color: #9e9e9e;
+}
+#gorevler{
+      margin-top: 5px;
+      border: solid 2px #fff;
+}
+span{
+      float: left;
+}
+span{
+      
+      display: inline-flex;
+      align-items: center;
+      font-size: 15pt;
+}
+
+li{
+      padding: 5px;
+      list-style: none;
+      background-color: brown;
+      color: white;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+      text-transform: capitalize;
+      margin: 0px;
+      width: 100%;
+}
