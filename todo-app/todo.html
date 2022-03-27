@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="src/main.css" type="text/css" />
+      
+</head>
+<body>
+      <div id="container">
+            <form name="todo" >
+                  <input type="text" name="gorev" value="Görev girin">
+                  <input type="button" onclick="ekle();" value="Ekle">
+            </form>
+            <div id="gorevler">
+                  <ul id="liste">
+                        <li>
+                              <span id="hizala"><input type="checkbox" name="1"> Elma al   </span>
+                              <button onclick="kaldir(1)">X</button>
+                        </li>
+                        <li>
+                              <span id="hizala"><input type="checkbox" name="2" > portakal al   </span>
+                              <button onclick="kaldir(2)">X</button>
+                        </li>
+                  </ul>
+            </div>
+      </div>
+      
+      <script src="src/javascript.js"></script>
+</body>
+</html>
